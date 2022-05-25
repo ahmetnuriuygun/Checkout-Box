@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" /></head>
+<body>
+    <header>
+        <h1>Checkout</h1>
+    </header>
+
+    <main>
+        <form action="#">
+
+            <h4>Contact Information</h4>
+
+            <div>
+            <label for="email">Email</label>
+            
+            <div class="box">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" name="email" id="email"  placeholder="Enter your email..." >
+            </div>
+            </div>
+            
+            <br>
+            
+            <div>
+            <label for="phone">Phone</label>
+            <br>
+            
+            <div class="box">
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone..." >    
+            </div>
+            </div>
+
+            <br>            
+            <br>
+            <br>
+            
+
+            <h4>Shipping address</h4>
+
+            <div>
+            <label for="name">Full name</label>
+            <br>
+            
+            <div class="box">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" name="name" id="name" placeholder="Enter your Full name...">
+            </div>
+            
+            </div>
+            <br>
+
+            <div>
+            <label for="address">Address</label>
+            
+            <br>
+            <div class="box">
+            <i class="fa-solid fa-house-chimney"></i>
+            <input type="text" name="address" id="address" placeholder="Enter your address..." >
+            </div>
+            
+            </div>
+            <br>
+
+            <div>
+            <label for="city">City</label><br>
+            
+            <div class="box">
+            <i class="fa-solid fa-city"></i>
+            <input type="text" name="city" id="city" placeholder=" Enter your city...">
+            </div>
+            
+            </div>
+            <br>
+            
+            <div class="flex-input">
+            <div>
+                <label for="Country">Country</label>
+                <br>
+                
+                <div class="box-1">
+                    <i class="fa-solid fa-earth-europe"></i>
+                <select>
+                    <option value="Turkey" checked >Turkey</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Belgium">Belgium</option>
+                </select>
+                </div>
+                
+            </div>
+
+            <div>
+                <label for="post">Post Code</label>
+                <br>
+                
+                <div class="box-2">
+                <i class="fa-solid fa-envelopes-bulk"></i>
+                <input type="text" name="post" id="post" placeholder="Enter your postal code...">
+            </div>
+                
+            </div>
+            </div>
+            <div class="approved">
+                <span style="color: gray; width: 25px; font-size: 16px;">◼︎ </span>  <span>See this information next time</span>
+            </div>
+
+            <div>
+                <button>Continue</button>
+            </div>
+
+
+        </form>
+
+        <figure>
+            <div class="oge-1">
+            <img src="IMG/photo1.png" alt="vintage- bagpack" class="img-1">
+            <h3>VINTAGE Backbag</h3>
+            <h4>$54.99 <span class="amount">$94.99</span></h4>
+            <div class="input-counter">
+                <i class="fa-solid fa-minus"></i>
+                <input type="text" value="1" class="name">
+                <i class="fa-solid fa-plus"></i>
+           </div>
+            </div>
+            <div class="oge-2">
+            <img src="./IMG/photo2.png" alt="shoes" class="img-2">
+            <div class="fiyat"> 
+            <h3 >Levi Shoes </h3>
+            <h4>$74.99 <span class="amount">$124.99</span></h4>
+            <div class="input-counter">
+                <i class="fa-solid fa-minus"></i>
+                <input type="text" value="1" class="name">
+                <i class="fa-solid fa-plus"></i>
+           </div>
+            </div>
+            </div>
+
+            <div class="shipping">
+                
+                <p>Shipping <span class="numbers">$19</span> </p>
+            </div> 
+            <div class="sum">  
+                <p>Total <span class="numbers">$148.98</span> </p>
+            </div>
+            
+       
+        </figure>
+    </main>
+</body>
+</html>

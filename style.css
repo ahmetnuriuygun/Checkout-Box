@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat";
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+form h4{
+    margin-bottom: 10px;
+    color: rgb(73, 72, 72);
+}
+form input,form select{
+    border: none;
+    outline: none;
+}
+.box{
+    border: 1px solid gray;
+    width: 380px;
+    border-radius: 5px;
+    height: 30px;
+}
+.flex-input{
+    display: flex;
+}
+.box-1{
+    width: 125px;
+    border: 1px solid gray;
+    margin: 5px 7px;
+    height: 30px;
+
+}
+.box-2{
+    width: 200px;
+    border: 1px solid gray;
+    margin: 5px 7px;
+    height: 30px;
+    border-radius: 5px;
+}
+form i{
+    margin: 7px 6px;
+    font-size: 14px;
+    color: gray;
+}
+form button{
+    background-color: rgb(217, 105, 18);
+    color: white;
+    width: 75px;
+    height: 35px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 300px;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 13px;
+    line-height: 1;
+}
+form label, form span{
+    font-size: 13px;
+    line-height: 1;
+    color: gray;
+}
+figure{
+    background-color: rgba(202, 202, 202, 0.675);
+    width: 380px;
+    height: 430px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+figure .img-1{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    float: left;
+    margin: 5px 15px;
+}
+figure .img-2{
+    clear: left;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    float: left;
+    margin:1px 15px;
+
+}
+figure h3{
+    margin-top: 20px;
+    font-size: 14px;
+    color:rgb(73, 72, 72);
+}
+figure h4{
+    color: rgb(217, 105, 18);
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+.amount{
+    text-decoration:line-through;
+    font-size: 10px;
+    color: gray;
+}
+figure .name{
+    border: none;
+    outline: none;
+    width: 55px;
+    height: 25px;
+    text-align: center;
+    background-color:rgba(204, 204, 204, 0) ;
+    margin-top: 5px;
+}
+.input-counter{
+    margin-left: 160px;
+    border: 1px solid black;
+    height: 35px;
+    width: 100px;
+    margin-top: 45px;
+    border-radius: 5px;
+    
+}
+.input-counter i{
+    background-color:rgb(181, 178, 178);
+    margin-left: 3px;
+    font-size: 16px;
+    border-radius: 2px;
+    
+}
+.fiyat{
+    margin-top: 60px;
+}
+.shipping{
+    clear: both;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-top: 1px solid gray;
+    width: 300px;
+    color: rgb(73, 72, 72);
+    font-size:16px;
+    
+}
+
+.sum{
+    margin-left: 20px;
+    border-top: 1px solid gray;
+    width: 300px;
+    color: rgb(73, 72, 72);
+    font-size:16px;
+    margin-top: 10px;
+}
+.numbers{
+    font-size: 16px;
+    margin-left: 190px;
+    color: rgb(73, 72, 72);
+}
+.approved i{
+    width: 15px;
+}
